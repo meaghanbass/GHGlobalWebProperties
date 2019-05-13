@@ -190,6 +190,7 @@ body {
 /* ========== SHOWCASE CONTAINER ========== */
 .showcase-container {
     background: #f5f5fa !important;
+    padding-bottom: 48px;
 }
 
 .showcase-card-container {
@@ -272,6 +273,10 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+    .showcase-container {
+        padding-bottom: 0;
+    }
+    
     .showcase-text-container {
         padding-top: 24px;
         padding-bottom: 48px;
