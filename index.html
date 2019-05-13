@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139871568-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-139871568-1');
+    </script>
+  <!-- End Global site tag (gtag.js) - Google Analytics -->
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="shortcut icon" href="images/favicon.png">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7/themes/algolia-min.css">
+  <link rel="stylesheet" href="./src/index.css">
+  <link rel="stylesheet" href="./src/app.css">
+
+
+  <link rel="stylesheet" href="css/rootcolors.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <link rel="stylesheet" href="css/bootstrap-adjacent.css" type="text/css">
+  <link rel="stylesheet" href="css/ais-instantsearch-adjacent.css" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/algolia-min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  
+  <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <title>Algolia InstantSearch</title>
+</head>
+
+<body>
+
+
+<!-- BEGIN CUSTOM SECTION I DESIGNED -->
+
+<!-- NAVBAR -->
+<img id="bg1" src="images/bg1.png" alt="GWP" style="width: 100%; position: absolute; z-index: -2; bottom: calc(-22.5vw + 310px);">
+<nav class="navbar">
+  <div class="container-fluid">
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <p class="solstice font-hind"> <i class="fas fa-bars" style="font-size: 20px;"></i> 
+                  <span id="menu_align">Menu</span>
+              </p>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand nebula font-ubuntu" href="index.php">
+        Global Web Properties</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav font-hind">
+              <li><a href="#" class="solstice">Properties</a></li>
+              <li><a href="#" class="solstice">Services</a></li>
+              <li><a href="#" class="solstice">Resources</a></li>
+          </ul>
+          <button type="button" class="gwp_contact_button font-hind white">
+              <p>Contact</p>
+          </button>
+      </div>
+  </div>
+</nav>
+<!--END NAVBAR -->
+
+<!-- BEGIN HEADER -->
+<div class="jumbotron text-center tag" style="margin-bottom:0;">
+  <h1 class="font-poppins">
+    <span class="solstice">WEB MANAGEMENT</span>
+    <br>
+    <span class="solstice">TO POWER YOUR BUSINESS.</span>
+  </h1>
+  <p class="font-hind nova tag_sub">Optimizing multi-platform user experiences</p> 
+</div>
+<!-- END HEADER -->
+
+<!-- BEGIN JUMBOTRON CONTAINER -->
+<div class="jumbotron text-center tag" style="margin-bottom:0">
+  <p class="font-hind solstice tag_sub" style="margin-bottom: 0px; margin-top: 40px; font-weight: 400">Beyond design</p> 
+  <p class="description telluric font-hind" id="centered-description" style="width:500px; margin-left:auto; margin-right:auto;">Our team of designers and developers know what it takes to create an engaging web presence and a unique customer experience. We provide so much more than design and development, though. We provide a hands-on approach to analyzing and developing new ways to capture audience attention and drive web and social media traffic.</p>
+</div>
+
+<!-- ALGOLIA INSTANT SEARCH -->
+<!-- <div class="ais-InstantSearch searchcontainer solstice font-hind">
+  <br>
+  <h3>InstantSearch&trade;</h3>
+  <div class="right-panel">
+    <div id="searchbox"></div>
+    <div id="hits"></div>
+    <div id="pagination"></div>
+  </div>
+</div> -->
+<!-- END ALGOLIA INSTANT SEARCH --> 
+
+<div class="empty1"></div>
+
+<!-- END JUMBOTRON CONTAINER -->
+
+<!-- BEGIN SERVICES CONTAINER -->
+<div class="container">
+  <div class="jumbotron text-center tag">
+    <p class="font-poppins solstice tag_sub" style="margin-bottom: 0px; margin-top: 40px; font-weight: 400">WHAT WE DO</p>
+  </div>
+    <div class="row justify-content-center text-center">
+        <div class="col-sm-3 col-sm service-card">
+          <img src="images/icons/developer.png" alt="Web Design & Development" class="service-icons">
+          <p class="font-hind solstice description" style="margin-bottom: 0px; margin-top: 20px; font-weight: 400">Web Design & Development</p>
+          <p class="service-description telluric font-hind" id="centered-description">From inception to launch we manage the entire lifcycle of design and development. <strong>Includes:</strong> Prototyping, SEO, A/B testing, Scalability, API integration, Module updates</p>
+        </div>
+        <div class="col-sm-3 col-sm service-card">
+          <img src="images/icons/hosting.png" alt="Hosting & Management" class="service-icons">
+          <p class="font-hind solstice description" style="margin-bottom: 0px; margin-top: 20px; font-weight: 400">Hosting & Management</p>
+          <p class="service-description telluric font-hind" id="centered-description">Wheather your site was created by us or someone else, we offer industry-leading reliable and scalable hosting with <span style="color:var(--neptune-4);">99.999999999%</span> delivery durability.</p>
+        </div>
+        <div class="col-sm-3 col-sm service-card">
+          <img src="images/icons/app.png" alt="App Development" class="service-icons">
+          <p class="font-hind solstice description" style="margin-bottom: 0px; margin-top: 20px; font-weight: 400">App Devlopment</p>
+          <p class="service-description telluric font-hind" id="centered-description">Moving to a mobile-first and interactivity-based approach is a seemless transition with our </p>
+        </div>
+        <div class="col-sm-3 col-sm service-card">
+          <img src="images/icons/architect.png" alt="Solution Design & Architect" class="service-icons">
+          <p class="font-hind solstice description" style="margin-bottom: 0px; margin-top: 20px; font-weight: 400">Solutions Architecture</p>
+          <p class="service-description telluric font-hind" id="centered-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+        </div>
+      </div>
+      <br><br><br>
+</div>
+<!-- END SERVICES CONTAINER -->
+
+<!-- BEGIN SHOWCASE CONTAINER -->
+<div class="container-fluid showcase-container">
+    <div class="jumbotron text-center tag">
+        <p class="font-poppins solstice tag_sub" style="margin-bottom: 0px; margin-top: 40px; font-weight: 400">PAST WORK</p>
+    </div>
+
+    <div class="container">
+        <div id="my-carousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#my-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#my-carousel" data-slide-to="1"></li>
+            <li data-target="#my-carousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="item active">
+              <img alt="First slide" src="http://placehold.it/1440x500">
+              <div class="carousel-caption">
+                <h3>Caption heading 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+            <div class="item">
+              <img alt="Second slide" src="http://placehold.it/1440x500">
+              <div class="carousel-caption">
+                <h3>Caption heading 2</h3>
+                <p>Morbi eget libero quis metus consectetur semper.</p>
+              </div>
+            </div>
+            <div class="item">
+              <img alt="Third slide" src="http://placehold.it/1440x500">
+              <div class="carousel-caption">
+                <h3>Caption heading 3</h3>
+                <p>Suspendisse ullamcorper massa eget eleifend iaculis.</p>
+              </div>
+            </div>
+          </div>
+          <a class="left carousel-control" href="#my-carousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#my-carousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+        <!-- /.carousel-->
+      </div>
+    
+    <div class="empty1"></div>
+    <div class="empty1"></div>
+    <div class="empty1"></div>
+    <div class="empty1"></div>
+</div>
+<!-- END SHOWCASE CONTAINER -->
+
+<!-- BEGIN FOOTER -->
+<footer class="row telluric">
+  <div class="col-md-offset-2 col-md-3 col-sm">
+      <ul class="footer_ul font-hind">
+        <h4 class="font-poppins solstice">Properties</h4>
+        <li>Stockpress.shop</li>
+        <li>Techbuilds.co</li>
+        <li>Youtheducationsociety.org</li>
+        <li>Thefinancialaffairs.com</li>
+        <li>Apexconsultgroup.com</li>
+        <li>Reprosites.co</li>
+        <li>Realestatedesign.co</li>
+        <li class="font-poppins solstice"><strong>SEARCH ALL PROPERTIES</strong></li>
+      </ul>
+  </div>
+  <div class="col-md-3 col-sm">
+      <ul class="footer_ul font-hind">
+        <h4 class="font-poppins solstice">Availabilities</h4>
+        <li>Domains</li>
+        <li>Companies</li>
+          <br>
+          <h4 class="font-poppins solstice">Resources</h4>
+        <li>Reports</li>
+        <li>Forms</li>
+        <li>Request For Information (RFI)</li>
+      </ul>
+  </div>
+  <div class="col-md-3 col-sm">
+      <ul class="footer_ul font-hind">
+        <h4 class="contact font-poppins nebula pointer">Contact Us</h4>
+      </ul>
+  </div>
+</footer>
+<!-- END FOOTER -->
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/algoliasearch/3.32.0/algoliasearchLite.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@3.1.1"></script>
+  <script src="./src/app.js"></script>
+</body>
+
+</html>

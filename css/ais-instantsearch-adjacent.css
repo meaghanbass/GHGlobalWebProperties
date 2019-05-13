@@ -1,0 +1,20 @@
+.searchcontainer {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+
+.searchcontainer h3 {
+    font-size: 21px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.searchcontainer .right-panel #searchbox {
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+

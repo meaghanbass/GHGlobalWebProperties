@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:600,700');
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.font-hind {
+    font-family: "Hind",Arial,sans-serif;
+}
+
+.font-ubuntu {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.font-poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.tag h1 {
+    font-weight: 700;
+}
+
+.tag_sub {
+    font-weight: 400;
+    line-height: 1.33;
+    margin-top: 8px;
+}
+
+.description {
+    font-size: 18px !important;
+    margin-top: 8px;
+    line-height: 1.33;
+    font-weight: lightest !important;
+}
+
+#centered-description {
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+#menu_align {
+    position: relative;
+    top: -4px;
+}
+
+.gwp_contact_button {
+    text-shadow: 0 1px 0 #4b5ef0;
+    background: -webkit-gradient(linear, left top, left bottom, from(#aeb7ff), to(#5468ff));
+    background: linear-gradient(#aeb7ff, #5468ff);
+    -webkit-box-shadow: 0 7px 13px -3px rgba(45,35,66,0.3), 0 2px 4px 0 rgba(45,35,66,0.4), inset 0 -3px 0 0 #4b58ba;
+    box-shadow: 0 7px 13px -3px rgba(45,35,66,0.3), 0 2px 4px 0 rgba(45,35,66,0.4), inset 0 -3px 0 0 #4b58ba;
+    height: 4em;
+    transition: box-shadow 0.15s ease, transform 0.15s ease, -webkit-box-shadow 0.15s ease, -webkit-transform 0.15s ease;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    line-height: 4.5rem;
+    width: 120px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    border-radius: 30px;
+    border: none;
+    margin-top: 3px;
+}
+
+@media (max-width: 1010px) {
+    .gwp_contact_button {
+        visibility: visible;
+    }
+    
+    .navbar-collapse {
+        visibility: hidden;
+    }
+
+    #bg1 {
+        display: none;
+    }
+    
+    /* .navbar-nav {
+       display: none;
+    } */
+    
+    .description {
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .gwp_contact_button {
+        float: left;
+        margin-top: -91px;
+    }
+    
+    .navbar-nav {
+        visibility: visible;
+    }
+
+    #centered-description {
+        width: 90vw !important;
+    }
+}
+
+@media (max-width: 458px) {
+    .navbar-toggle {
+        visibility: hidden;
+    }
+    
+    .navbar-brand {
+        text-align: center;
+        position: fixed;
+        background-color: white;
+        width: 100vw;
+        left: 0px;
+        top: 0px;
+        height: 70px !important;
+        z-index: 1000;
+        line-height: 40px !important;
+        box-shadow: 0px 0px 15px gray;
+    }
+}
+
+.gwp_contact_button:hover {
+    box-shadow: 0 11px 16px -3px rgba(45,35,66,0.3), 0 4px 5px 0 rgba(45,35,66,0.4), inset 0 -2px 0 0 #4b58ba;
+    transform: translateY(-2px);
+}
+
+
+
+/* ========== SPACE HOLDER DIVS ========== */
+.empty1 {
+    width: 100%;
+    height: 50px;
+  }
+  
+.empty2 {
+    width: 100%;
+    padding-bottom: 14%;
+}
+/* ========== END SPACE HOLDER DIVS ========== */
+
+
+
+/* ========== SERVICE CARDS ========== */
+.service-card {
+    margin-bottom: 40px;
+    /* padding-left: 0 !important; */
+}
+
+.service-icons {
+    height: 50px;
+}
+
+.service-description {
+    font-size: 14px;
+}
+
+@media (max-width: 500px) {
+    .service-card {
+        margin-bottom: 40px;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+/* ========== END SERVICE CARDS ========== */
+
+/* ========== SHOWCASE CONTAINER ========== */
+.showcase-container {
+    background: #f5f5fa !important;
+}
+/* ========== END SHOWCASE CONTAINER ========== */
+
+footer {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    margin-top: 48px;
+    background-color: #f5f5fa;
+}
+
+.footer_ul {
+    list-style: none;
+    line-height: 1.33;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.footer_ul li {
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.footer_ul h4 {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+@media (max-width: 991px) {
+    .footer_ul {
+        text-align:center;
+        margin-bottom:40px;
+        padding-left: 0 !important;
+    }
+}
