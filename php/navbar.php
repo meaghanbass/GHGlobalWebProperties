@@ -9,7 +9,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand nebula font-ubuntu" href="index.php">
+          <a class="navbar-brand nebula font-ubuntu" href="index.php" oncontextmenu="return false;">
         Global Web Properties</a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">

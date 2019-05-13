@@ -57,7 +57,9 @@
 
 <!-- BEGIN CONTACT FORM CONTAINER -->
 <div class="container-fluid contact-form-container">
+    <form>
 
+    <form>
 </div>
 <!-- END CONTACT FORM CONTAINER -->
 

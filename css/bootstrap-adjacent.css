@@ -10,6 +10,10 @@
     padding-right: 38px;
 }
 
+.navbar-brand:hover {
+    color: var(--nebula);
+}
+
 .jumbotron {
     background-color: transparent !important;
 }
