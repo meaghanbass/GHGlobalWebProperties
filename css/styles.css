@@ -255,6 +255,23 @@ body {
     box-shadow: 0 5px 15px 0 rgba(37,44,97,.15), 0 2px 4px 0 rgba(93,100,148,.2);
     border-radius:2px;
 }
+
+@media only screen and (min-width: 768px) {
+    .showcase-hero {
+        order: 2;
+    }
+
+    .showcase-text-container {
+        order: 1;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .showcase-text-container {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+}
 /* ========== END SHOWCASE CONTAINER ========== */
 
 footer {
