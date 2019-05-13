@@ -307,7 +307,7 @@ body {
 footer {
     padding-top: 48px;
     padding-bottom: 48px;
-    margin-top: 48px;
+    margin-top: 0;
     background-color: #f5f5fa;
 }
 
@@ -337,4 +337,14 @@ footer {
         margin-bottom:40px;
         padding-left: 0 !important;
     }
+}
+
+/* ========== NON-INDEX STYLES ========== */
+.contact-jumbotron-gradient {
+    background-image: linear-gradient(#fff,#f5f5fa);
+}
+
+.contact-form-container {
+    background-color: var(--moon);
+    height:500px;
 }

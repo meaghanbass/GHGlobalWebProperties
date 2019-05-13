@@ -47,10 +47,19 @@
 <!--END NAVBAR -->
 
 <!-- BEGIN HEADER -->
-<?php include 'php/header.php';?>
+<div class="jumbotron text-center tag contact-jumbotron-gradient" style="margin-bottom:0;">
+  <h1 class="font-poppins">
+    <span class="solstice">GET IN TOUCH</span>
+  </h1>
+  <p class="font-hind nova tag_sub">Use the form below to get in touch with us.</p> 
+</div>
 <!-- END HEADER -->
 
+<!-- BEGIN CONTACT FORM CONTAINER -->
+<div class="container-fluid contact-form-container">
 
+</div>
+<!-- END CONTACT FORM CONTAINER -->
 
 <!-- BEGIN FOOTER -->
 <?php include 'php/footer.php';?>

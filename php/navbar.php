@@ -1,4 +1,3 @@
-<img id="bg1" src="images/bg1.png" alt="GWP" style="width: 100%; position: absolute; z-index: -2; bottom: calc(-22.5vw + 310px);">
 <nav class="navbar">
   <div class="container-fluid">
       <div class="navbar-header">
