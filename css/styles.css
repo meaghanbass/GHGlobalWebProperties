@@ -79,6 +79,17 @@ body {
     margin-top: 3px;
 }
 
+.gwp_contact_button:active {
+    box-shadow: 
+        inset 0 2px 0 1px rgba(132,138,184,0.11), 
+        inset 0 2px 9px 0 rgba(93,100,148,0.5), 
+        inset 0 -1px 0 1px #5468ff;
+}
+
+.gwp_contact_button:focus {
+    outline:none;
+}
+
 @media (max-width: 1010px) {
     .gwp_contact_button {
         visibility: visible;
