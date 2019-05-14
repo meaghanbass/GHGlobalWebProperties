@@ -57,8 +57,9 @@
 
 <!-- BEGIN CONTACT FORM CONTAINER -->
 <div class="container-fluid contact-form-container">
-    <form class="form col-sm col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
-      <label for="inquiry-type" class="">
+    <form class="form col-sm col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 font-poppins">
+      
+      <label for="inquiry-type" class="col-xs-12 col-md-6 form-label">
         Nature of inquiry:
         <select id="inquiry-type" name="inquiry-type" class="" type="text">
           <<option value="webdes">Web Design</option>
@@ -68,6 +69,42 @@
           <<option value="solutions">Solutions Architecture</option>
         </select>
       </label>
+
+      <label for="contact-company" class="col-xs-12 col-md-6 form-label">
+        Company
+        <input id="contact-company" name="company" class="" type="text" value>
+      </label>
+
+      <label for="contact-first-name" class="col-xs-12 col-md-6 form-label">
+        First Name
+        <input id="contact-first-name" name="first-name" class="" type="text" value>
+      </label>
+
+      <label for="contact-last-name" class="col-xs-12 col-md-6 form-label">
+        Last Name
+        <input id="contact-last-name" name="last-name" class="" type="text" value>
+      </label>
+
+      <label for="contact-email" class="col-xs-12 col-md-6 form-label">
+        Email
+        <input id="contact-email" name="email" class="" type="text" value>
+      </label>
+
+      <label for="contact-phone" class="col-xs-12 col-md-6 form-label">
+        Phone Number
+        <input id="contact-phone" name="phone" class="" type="text" value>
+      </label>
+
+      <label for="contact-email" class="col-xs-12 col-md-6 form-label">
+        Email
+        <input id="contact-email" name="email" class="" type="text" value>
+      </label>
+
+      <label for="contact-message" class="col-xs-12 form-label">
+        Message
+        <textarea id="contact-message" name="message" rows="5" class="" type="text"></textarea>
+      </label>
+
     <form>
 </div>
 <!-- END CONTACT FORM CONTAINER -->
