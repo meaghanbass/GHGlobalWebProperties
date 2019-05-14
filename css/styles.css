@@ -349,6 +349,56 @@ footer {
 
 
 
+/* ========== SUBSCRIBE FORM STYLES ========== */
+#mc_embed_signup form {
+    margin-left:25px;
+    margin-right: 50px;
+}
+
+.subscribe-button {
+    /* background: linear-gradient(#fff,#e4e4e9) no-repeat;
+    box-shadow: 0 7px 14px -3px rgba(45,35,66,0.3), 0 2px 4px 0 rgba(45,35,66,0.4), inset 0 -2px 0 0 #cfd1e3;
+    height: 4rem !important;
+    line-height: 4.5rem !important;
+    transition: box-shadow 0.15s ease, transform 0.15s ease, -webkit-box-shadow 0.15s ease, -webkit-transform 0.15s ease;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 3px;
+    padding: 1.2em 3em !important;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'hind', sans-serif;
+    font-weight: 700 !important;
+    color: #5d6494 !important;
+    font-size: 13px;
+    border-radius: 30px !important;
+    margin: 5px auto !important;
+    cursor: pointer; */
+
+    background: linear-gradient(#fff,#e4e4e9) no-repeat;
+    box-shadow: 0 7px 14px -3px rgba(45,35,66,0.3), 0 2px 4px 0 rgba(45,35,66,0.4), inset 0 -2px 0 0 #cfd1e3;
+    height: 4.5rem !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    border-radius: 30px !important;
+    color: var(--telluric) !important;
+    font-size: 11px !important;
+    font-weight: 600 !important;
+    margin-top: 20px !important;
+}
+
+.subscribe-button:hover {
+    box-shadow: 0 11px 16px -3px rgba(45,35,66,0.3), 0 4px 5px 0 rgba(45,35,66,0.4), inset 0 -2px 0 0 #cfd1e3;
+    transform: translateY(-2px);
+}
+
+.subscribe-button:focus {
+    outline:none;
+}
+/* ========== SUBSCRIBE FORM STYLES ========== */
+
+
 
 /* ========== CONTACT PAGE STYLES ========== */
 .contact-jumbotron-gradient {

@@ -24,7 +24,6 @@
   <link rel="stylesheet" href="./src/index.css">
   <link rel="stylesheet" href="./src/app.css">
 
-
   <link rel="stylesheet" href="css/rootcolors.css" type="text/css">
   <link rel="stylesheet" href="css/styles.css" type="text/css">
   <link rel="stylesheet" href="css/bootstrap-adjacent.css" type="text/css">
