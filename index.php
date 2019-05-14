@@ -61,7 +61,7 @@
 <!-- BEGIN JUMBOTRON CONTAINER -->
 <div class="jumbotron text-center tag" style="margin-bottom:0">
   <p class="font-hind solstice tag_sub" style="margin-bottom: 0px; margin-top: 40px; font-weight: 400">Beyond design</p> 
-  <p class="description telluric font-hind" id="centered-description" style="width:500px; margin-left:auto; margin-right:auto;">Our team of designers and developers know what it takes to create an engaging web presence and a unique customer experience. We provide so much more than design and development, though. We provide a hands-on approach to analyzing and developing new ways to capture audience attention and drive web and social media traffic.</p>
+  <p class="tag-sub-description description telluric font-hind" id="centered-description">Our team of designers and developers know what it takes to create an engaging web presence and a unique customer experience. We provide so much more than design and development, though. We provide a hands-on approach to analyzing and developing new ways to capture audience attention and drive web and social media traffic.</p>
 </div>
 <div class="empty1"></div>
 <!-- END JUMBOTRON CONTAINER -->
@@ -104,9 +104,9 @@
   </div>
 
   <div class="row showcase-card-container">
-    <div class="showcase-card">
+    <div class="showcase-card col-md-8">
       <div class="showcase-hero col-sm-5">
-        <img class="showcase-hero-img" src="https://via.placeholder.com/1000x672" alt="#">
+        <img class="showcase-hero-img" src="http://placeimg.com/1000/672/tech?t=1557800025608" alt="#">
       </div>
       <div class="showcase-text-container col-sm-7">
         <div class="showcase-text">
@@ -119,9 +119,39 @@
   </div>
 
   <div class="row showcase-card-container">
-      <div class="showcase-card row-reverse">
+      <div class="showcase-card col-md-8 row-reverse">
         <div class="showcase-hero col-sm-5">
-          <img class="showcase-hero-img" src="https://via.placeholder.com/1000x672" alt="#">
+          <img class="showcase-hero-img" src="http://placeimg.com/1000/672/people" alt="#">
+        </div>
+        <div class="showcase-text-container col-sm-7">
+          <div class="showcase-text">
+            <p class="showcase-text-service font-poppins">E-Commerce</p>
+            <h3 class="showcase-text-tagline font-hind">Personalize the Shopping Experience</h3>
+            <p class="showcase-text-service-description font-hind">Your users want an intuitive shopping experience. Algolia enables teams to create a personalized site search and discovery experience that customers will love.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row showcase-card-container">
+    <div class="showcase-card col-md-8">
+      <div class="showcase-hero col-sm-5">
+        <img class="showcase-hero-img" src="http://placeimg.com/1000/672/arch" alt="#">
+      </div>
+      <div class="showcase-text-container col-sm-7">
+        <div class="showcase-text">
+          <p class="showcase-text-service font-poppins">E-Commerce</p>
+          <h3 class="showcase-text-tagline font-hind">Personalize the Shopping Experience</h3>
+          <p class="showcase-text-service-description font-hind">Your users want an intuitive shopping experience. Algolia enables teams to create a personalized site search and discovery experience that customers will love.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row showcase-card-container">
+      <div class="showcase-card col-md-8 row-reverse">
+        <div class="showcase-hero col-sm-5">
+          <img class="showcase-hero-img" src="http://placeimg.com/1000/672/arch/grayscale" alt="#">
         </div>
         <div class="showcase-text-container col-sm-7">
           <div class="showcase-text">

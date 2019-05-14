@@ -40,6 +40,12 @@ body {
     margin-top: 8px;
 }
 
+.tag-sub-description {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .description {
     font-size: 18px !important;
     margin-top: 8px;
@@ -220,6 +226,8 @@ body {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .showcase-text-container {
@@ -339,7 +347,10 @@ footer {
     }
 }
 
-/* ========== NON-INDEX STYLES ========== */
+
+
+
+/* ========== CONTACT PAGE STYLES ========== */
 .contact-jumbotron-gradient {
     background-image: linear-gradient(#fff,#f5f5fa);
 }
@@ -347,4 +358,11 @@ footer {
 .contact-form-container {
     background-color: var(--moon);
     height:500px;
+}
+
+.form {
+    background-color: white;
+    box-shadow: 0 5px 15px 0 rgba(37,44,97,.15), 0 2px 4px 0 rgba(93,100,148,.2);
+    height:200px;
+
 }

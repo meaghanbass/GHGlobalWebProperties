@@ -57,8 +57,17 @@
 
 <!-- BEGIN CONTACT FORM CONTAINER -->
 <div class="container-fluid contact-form-container">
-    <form>
-
+    <form class="form col-sm col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+      <label for="inquiry-type" class="">
+        Nature of inquiry:
+        <select id="inquiry-type" name="inquiry-type" class="" type="text">
+          <<option value="webdes">Web Design</option>
+          <<option value="hosting">Hosting</option>
+          <<option value="management">Site Management</option>
+          <<option value="app">App Development</option>
+          <<option value="solutions">Solutions Architecture</option>
+        </select>
+      </label>
     <form>
 </div>
 <!-- END CONTACT FORM CONTAINER -->
