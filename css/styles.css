@@ -350,9 +350,14 @@ footer {
 
 
 /* ========== SUBSCRIBE FORM STYLES ========== */
+#mc_embed_signup {
+    background:none !important;
+}
+
 #mc_embed_signup form {
     margin-left:25px;
     margin-right: 50px;
+    padding-top:0px !important;
 }
 
 .subscribe-button {
@@ -401,6 +406,11 @@ footer {
 
 
 /* ========== CONTACT PAGE STYLES ========== */
+#mc_embed_signup_scroll {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
 .contact-jumbotron-gradient {
     background-image: linear-gradient(#fff,#f5f5fa);
 }
@@ -464,7 +474,7 @@ footer {
     padding-bottom: 8px;
     padding-top: 8px;
     border: 1px solid;
-    border-color: var(--proton);
+    border-color: var(--proton) !important;
     border-radius: 4px;
     background-color: white;
     margin-top: 8px;
