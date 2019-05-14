@@ -407,7 +407,7 @@ footer {
 
 /* ========== CONTACT PAGE STYLES ========== */
 #mc_embed_signup_scroll {
-    padding-top: 20px !important;
+    padding-top: 30px !important;
     padding-bottom: 20px !important;
 }
 
@@ -502,4 +502,24 @@ footer {
 
 .form textarea:focus {
     outline: none;
+}
+
+.gwp_contact_submit {
+    text-shadow: 0 1px 0 #4b5ef0;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 11px !important;
+    height: 4.5rem !important;
+    font-weight: 600 !important;
+    border-radius: 30px !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#aeb7ff), to(#5468ff));
+    background: linear-gradient(#aeb7ff, #5468ff);
+    -webkit-box-shadow: 0 7px 13px -3px rgba(45,35,66,0.3), 0 2px 4px 0 rgba(45,35,66,0.4), inset 0 -3px 0 0 #4b58ba;
+    box-shadow: 0 7px 13px -3px rgba(45,35,66,0.3), 0 2px 4px 0 rgba(45,35,66,0.4), inset 0 -3px 0 0 #4b58ba;
+    padding: 0 50px !important;
+}
+
+.gwp_contact_submit:hover {
+    box-shadow: 0 11px 16px -3px rgba(45,35,66,0.3), 0 4px 5px 0 rgba(45,35,66,0.4), inset 0 -2px 0 0 #4b58ba;
+    transform: translateY(-2px);
 }

@@ -36,7 +36,7 @@
   <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
   <div id="mc_embed_signup">
     <form action="https://gmail.us20.list-manage.com/subscribe/post?u=6324e563bdd15c95ab519a5bc&amp;id=973c822e15" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="subscribe-form validate" target="_blank" novalidate>
-        <div id="mc_embed_signup_scroll">
+        <div id="mc_embed_signup_scroll" style="padding-top:0 !important;">
         <h2>Subscribe For Updates</h2>
       <div class="mc-field-group">
         <label for="mce-NAME" class="form-label">Name </label>

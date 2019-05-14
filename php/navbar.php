@@ -18,7 +18,7 @@
               <li><a href="#" class="solstice">Services</a></li>
               <li><a href="#" class="solstice">Resources</a></li>
           </ul>
-          <button type="submit" class="gwp_contact_button font-hind white" onclick="window.location.href = 'contact.php';">
+          <button type="submit" class="gwp_contact_button font-hind white" onclick="window.location.href = 'contact-form.php';">
               <p>Contact</p>
           </button>
 
