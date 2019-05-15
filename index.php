@@ -166,6 +166,14 @@
 </div>
 <!-- END SHOWCASE CONTAINER -->
 
+<!-- BEGIN PARTNERS CONTAINER -->
+<div class="container-fluid" style="height:200px;">
+  <div class="jumbotron text-center tag" style="margin-bottom:0">
+    <p class="font-hind solstice tag_sub" style="margin-bottom: 40px; margin-top: 40px; font-weight: 400">Partner Programs</p> 
+  </div>
+</div>
+<!-- END PARTNERS CONTAINER -->
+
 <!-- BEGIN FOOTER -->
 <?php include 'php/footer.php';?>
 <!-- END FOOTER -->
