@@ -312,6 +312,22 @@ body {
 }
 /* ========== END SHOWCASE CONTAINER ========== */
 
+/* ========== BEGIN PARTNERS CONTAINER ========== */
+/* .card-body {
+    height: 80px;
+}
+
+.card-body img {
+    width:25%;
+} */
+
+.carousel-partners {
+    padding-bottom:60px;
+}
+/* ========== END PARTNERS CONTAINER ========== */
+
+
+/* ========== BEGIN FOOTER CONTAINER ========== */
 footer {
     padding-top: 48px;
     padding-bottom: 48px;
@@ -346,6 +362,7 @@ footer {
         padding-left: 0 !important;
     }
 }
+/* ========== END FOOTER CONTAINER ========== */
 
 
 
