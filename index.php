@@ -37,6 +37,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+
   <title>Global Web Properties</title>
 </head>
 
@@ -167,11 +172,115 @@
 <!-- END SHOWCASE CONTAINER -->
 
 <!-- BEGIN PARTNERS CONTAINER -->
-<div class="container-fluid" style="height:200px;">
+<div class="container-fluid">
   <div class="jumbotron text-center tag" style="margin-bottom:0">
     <p class="font-hind solstice tag_sub" style="margin-bottom: 40px; margin-top: 40px; font-weight: 400">Partner Programs</p> 
   </div>
 </div>
+
+
+
+<div class="container text-center my-3">
+    <div class="row mx-auto my-auto">
+        <div id="myCarousel" class="carousel slide w-100" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                <div class="item py-5 active">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="card">
+                              <div class="card-body">
+                                <h4 class="card-title">Card 1</h4>
+                                <p class="card-text">Some make up the bulk of the card's content.</p>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="card">
+                              <div class="card-body">
+                                <h4 class="card-title">Card 2</h4>
+                                <p class="card-text">Some make up the bulk of the card's content.</p>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="card">
+                              <div class="card-body">
+                                <h4 class="card-title">Card 3</h4>
+                                <p class="card-text">Some make up the bulk of the card's content.</p>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="card">
+                              <div class="card-body">
+                                <h4 class="card-title">Card 4</h4>
+                                <p class="card-text">Some make up the bulk of the card's content.</p>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              
+                <div class="item py-5">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="card">
+                              <div class="card-body">
+                                <h4 class="card-title">Card 5</h4>
+                                <p class="card-text">Some make up the bulk of the card's content.</p>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="card">
+                              <div class="card-body">
+                                <h4 class="card-title">Card 6</h4>
+                                <p class="card-text">Some make up the bulk of the card's content.</p>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="card">
+                              <div class="card-body">
+                                <h4 class="card-title">Card 7</h4>
+                                <p class="card-text">Some make up the bulk of the card's content.</p>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="card">
+                              <div class="card-body">
+                                <h4 class="card-title">Card 8</h4>
+                                <p class="card-text">Some make up the bulk of the card's content.</p>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>       
+
+
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <a class="carousel-control-prev text-dark" href="#myCarousel" role="button" data-slide="prev">
+                <span class="fa fa-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next text-dark" href="#myCarousel" role="button" data-slide="next">
+                <span class="fa fa-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<script>
+$('#myCarousel').carousel({
+  interval: 2000
+})
+</script>
 <!-- END PARTNERS CONTAINER -->
 
 <!-- BEGIN FOOTER -->
