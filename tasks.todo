@@ -1,16 +1,17 @@
-☐ Build Mailchimp forms for all sites - implement so that sites can be launched to start building lists
+✔ Build Mailchimp forms for all sites - implement so that sites can be launched to start building lists @done (5/16/2019, 10:47:39 AM)
 ☐ getterms.io
 ☐ Build blog subdomain and template for GWP
 ☐ Create CDN on CloudFront for css library for GWP theme
-☐ When I test the website, the footer contact form is not working. Thinking it could be that both contact forms are under the same audience. Maybe they need to be separated.
+✔ When I test the website, the footer contact form is not working. Thinking it could be that both contact forms are under the same audience. Maybe they need to be separated. @done (5/16/2019, 10:47:48 AM)
 ☐ Partners to add:
     ☐ Shopify
     ☐ BigCommerce
 ✔ Create Mailchimp account for each site @done (5/15/2019, 11:08:10 PM)
-☐ Recode contact forms with new Mailchimp audience forms
+✔ Recode contact forms with new Mailchimp audience forms @done (5/16/2019, 10:47:53 AM)
 ☐ Set up SSL certificate for GWP - site already redirected to https
 ☐ Fix homepage background image to be attached to title text
 ☐ Fix footer options
 ☐ Fix the way contact button gets pushed down on some resizing - I think because nav being "hidden" instead of "display:none;"
 ☐ Set service cards to be two per row on medium and small (I think?)
+☐ Validate GWP Contact Form so I don't need Mailchimp
 ☐ 
