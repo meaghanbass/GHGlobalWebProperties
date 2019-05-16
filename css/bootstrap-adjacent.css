@@ -38,6 +38,10 @@
     color: var(--nebula);
 }
 
+.nav > li > a:focus {
+    background: none !important;
+}
+
 .navbar-collapse {
     text-align: right;
 }
