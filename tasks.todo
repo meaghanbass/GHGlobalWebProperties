@@ -9,7 +9,7 @@
 ✔ Create Mailchimp account for each site @done (5/15/2019, 11:08:10 PM)
 ✔ Recode contact forms with new Mailchimp audience forms @done (5/16/2019, 10:47:53 AM)
 ☐ Set up SSL certificate for GWP - site already redirected to https
-☐ Fix homepage background image to be attached to title text
+✔ Fix homepage background image to be attached to title text @done (5/16/2019, 1:11:32 PM)
 ☐ Fix footer options
 ☐ Fix the way contact button gets pushed down on some resizing - I think because nav being "hidden" instead of "display:none;"
 ☐ Set service cards to be two per row on medium and small (I think?)
