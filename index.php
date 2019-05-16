@@ -46,7 +46,7 @@
 <body>
 
 <!-- NAVBAR -->
-<img id="bg1" src="images/bg1.png" alt="GWP" style="width: 100%; position: absolute; z-index: -2; bottom: calc(-22.5vw + 310px);">
+<img id="bg1" src="images/bg1.png" alt="GWP" style="width: 100%; height: 100%; overflow:hidden;  position: absolute; z-index: -2; top:-150px;">
 <?php include 'php/navbar.php';?>
 <!--END NAVBAR -->
 
