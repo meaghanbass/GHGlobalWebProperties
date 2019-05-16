@@ -99,6 +99,7 @@ body {
 @media (max-width: 1010px) {
     .gwp_contact_button {
         visibility: visible;
+        margin-top: -20px;
     }
     
     .navbar-collapse {
