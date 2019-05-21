@@ -1,4 +1,4 @@
-<footer class="row telluric">
+<footer class="row telluric" id="footer">
   <div class="col-md-offset-2 col-md-3 col-sm">
       <ul class="footer_ul font-hind">
         <h4 class="font-poppins solstice">Partners</h4>

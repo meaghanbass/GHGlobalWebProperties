@@ -67,7 +67,7 @@
 <!-- END JUMBOTRON CONTAINER -->
 
 <!-- BEGIN SERVICES CONTAINER -->
-<div class="container">
+<div class="container" id="services">
   <div class="jumbotron text-center tag">
     <p class="font-poppins solstice tag_sub" style="margin-bottom: 0px; margin-top: 40px; font-weight: 400">WHAT WE DO</p>
   </div>
@@ -112,8 +112,8 @@
       <div class="showcase-text-container col-sm-7">
         <div class="showcase-text">
           <p class="showcase-text-service font-poppins">E-Commerce</p>
-          <h3 class="showcase-text-tagline font-hind">Personalize the Shopping Experience</h3>
-          <p class="showcase-text-service-description font-hind">Your users want an intuitive shopping experience. Algolia enables teams to create a personalized site search and discovery experience that customers will love.</p>
+          <h3 class="showcase-text-tagline font-hind">User-Friendly, Cross-Platform Shopping Experiences</h3>
+          <p class="showcase-text-service-description font-hind">E-commerce shopping experiences are growing more important with the move towards mobile. We provide interactive experiences across platforms to keep your customers engaged.</p>
         </div>
       </div>
     </div>
@@ -127,9 +127,9 @@
         </div>
         <div class="showcase-text-container col-sm-7">
           <div class="showcase-text">
-            <p class="showcase-text-service font-poppins">E-Commerce</p>
-            <h3 class="showcase-text-tagline font-hind">Personalize the Shopping Experience</h3>
-            <p class="showcase-text-service-description font-hind">Your users want an intuitive shopping experience. Algolia enables teams to create a personalized site search and discovery experience that customers will love.</p>
+            <p class="showcase-text-service font-poppins">App Development</p>
+            <h3 class="showcase-text-tagline font-hind">Connecting With Your Audience</h3>
+            <p class="showcase-text-service-description font-hind">Your user want cross-platform usability. Global Web Properties enables businesses to create experiences from desktop to mobile that customers will love.</p>
           </div>
         </div>
       </div>
@@ -139,7 +139,7 @@
 <!-- END SHOWCASE CONTAINER -->
 
 <!-- BEGIN PARTNERS CONTAINER -->
-<div class="container-fluid">
+<div class="container-fluid" id="partners">
   <div class="jumbotron text-center tag" style="margin-bottom:0">
     <p class="font-hind solstice tag_sub" style="margin-bottom: 40px; margin-top: 40px; font-weight: 400">Partner Programs</p> 
   </div>
@@ -252,18 +252,6 @@
             </div>
         </div>
     </div>
-    <!-- <div class="row">
-        <div class="col-12">
-            <a class="carousel-control-prev text-dark" href="#myCarousel" role="button" data-slide="prev">
-                <span class="fa fa-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next text-dark" href="#myCarousel" role="button" data-slide="next">
-                <span class="fa fa-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-    </div> -->
 </div>
 
 <script>

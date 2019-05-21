@@ -14,9 +14,9 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav font-hind">
-              <li><a href="#" class="solstice">Partners</a></li>
-              <li><a href="#" class="solstice">Services</a></li>
-              <li><a href="#" class="solstice">Resources</a></li>
+              <li><a href="index.php#partners" class="solstice">Partners</a></li>
+              <li><a href="index.php#services" class="solstice">Services</a></li>
+              <li><a href="#footer" class="solstice">Resources</a></li>
           </ul>
           <button type="submit" class="gwp_contact_button font-hind white" onclick="window.location.href = 'contact-form.php';">
               <p>Contact</p>
