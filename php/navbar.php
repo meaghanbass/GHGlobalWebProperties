@@ -14,7 +14,7 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav font-hind">
-              <li><a href="#" class="solstice">Properties</a></li>
+              <li><a href="#" class="solstice">Partners</a></li>
               <li><a href="#" class="solstice">Services</a></li>
               <li><a href="#" class="solstice">Resources</a></li>
           </ul>

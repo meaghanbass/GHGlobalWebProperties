@@ -103,10 +103,11 @@
     <p class="font-hind solstice tag_sub" style="margin-bottom: 40px; margin-top: 40px; font-weight: 400">Experiences that matter to your business</p> 
   </div>
 
+  <!-- Showcase One -->
   <div class="row showcase-card-container">
     <div class="showcase-card col-md-8">
       <div class="showcase-hero col-sm-5">
-        <img class="showcase-hero-img" src="http://placeimg.com/1000/672/tech?t=1557800025608" alt="#">
+        <img class="showcase-hero-img" src="images/showcase/tshirtwholesaler.png" alt="#">
       </div>
       <div class="showcase-text-container col-sm-7">
         <div class="showcase-text">
@@ -118,40 +119,11 @@
     </div>
   </div>
 
+  <!-- Showcase Two -->
   <div class="row showcase-card-container">
       <div class="showcase-card col-md-8 row-reverse">
         <div class="showcase-hero col-sm-5">
-          <img class="showcase-hero-img" src="http://placeimg.com/1000/672/people" alt="#">
-        </div>
-        <div class="showcase-text-container col-sm-7">
-          <div class="showcase-text">
-            <p class="showcase-text-service font-poppins">E-Commerce</p>
-            <h3 class="showcase-text-tagline font-hind">Personalize the Shopping Experience</h3>
-            <p class="showcase-text-service-description font-hind">Your users want an intuitive shopping experience. Algolia enables teams to create a personalized site search and discovery experience that customers will love.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row showcase-card-container">
-    <div class="showcase-card col-md-8">
-      <div class="showcase-hero col-sm-5">
-        <img class="showcase-hero-img" src="http://placeimg.com/1000/672/arch" alt="#">
-      </div>
-      <div class="showcase-text-container col-sm-7">
-        <div class="showcase-text">
-          <p class="showcase-text-service font-poppins">E-Commerce</p>
-          <h3 class="showcase-text-tagline font-hind">Personalize the Shopping Experience</h3>
-          <p class="showcase-text-service-description font-hind">Your users want an intuitive shopping experience. Algolia enables teams to create a personalized site search and discovery experience that customers will love.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="row showcase-card-container">
-      <div class="showcase-card col-md-8 row-reverse">
-        <div class="showcase-hero col-sm-5">
-          <img class="showcase-hero-img" src="http://placeimg.com/1000/672/arch/grayscale" alt="#">
+          <img class="showcase-hero-img" src="images/showcase/taskbuddy.png" alt="#">
         </div>
         <div class="showcase-text-container col-sm-7">
           <div class="showcase-text">
